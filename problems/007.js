@@ -1,5 +1,3 @@
-// TODO: https://tech-docs.corndel.com/js/functions.html
-
 /**
  * Calls the functions in the correct order to log the messages:
  * 'first!', 'middle!', 'last!'
@@ -7,8 +5,10 @@
  * @returns {number} The product of the three returned values (i.e. multiply them)
  */
 export function main() {
-  // TODO: Call the functions in the correct order
-  // TODO: Return the product of the three returned values
+  const firstValue = meFirst()
+  const middleValue = meMiddle()
+  const lastValue = meLast()
+  return firstValue * middleValue * lastValue
 }
 
 function meFirst() {

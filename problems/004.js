@@ -1,5 +1,3 @@
-// TODO: https://tech-docs.corndel.com/js/logical-operators.html
-
 /**
  * Calculates permissions for a given user.
  *
@@ -13,8 +11,6 @@
  * @returns {boolean} - true if the user can edit, false otherwise.
  */
 export function permissions(isAdmin, isMember, isOwner) {
-  // TODO: Replace null with the correct boolean expression
-  const canEdit = null
-
-  return canEdit // Don't change this line
+  const canEdit = isAdmin || (isMember && isOwner)
+  return canEdit
 }

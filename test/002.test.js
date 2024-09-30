@@ -1,4 +1,5 @@
 import assert from 'assert'
+import { describe, it } from 'mocha'
 import { increment, decrement } from '../problems/002.js'
 
 describe('Increment and Decrement Tests', () => {

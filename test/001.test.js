@@ -1,4 +1,4 @@
-import { assert } from 'assert'
+import assert from 'assert'
 import { describe, it } from 'mocha'
 import { title, logger } from '../problems/001.js'
 
@@ -17,6 +17,7 @@ describe('Problem 001 tests', () => {
   it('should log the movie title', () => {
     logOutput = null
     logger()
-    assert.strictEqual(logOutput, title, 'Logger should output the movie title')
+    assert.notStrictEqual(logOutput, null, 'Logger should not log null')
+    assert.strictEqual(logOutput, title, 'Logger should log the movie title')
   })
 })
