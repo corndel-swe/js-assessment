@@ -22,7 +22,7 @@ and so on.
 You will see some information in the terminal to show you if your code passes
 the tests, or a hint about why it's failing.
 
-> [!HINT]
+> [!TIP]
 >
 > You can run all of the tests for every problem in one go by running
 > `npm run test`.
@@ -31,9 +31,9 @@ the tests, or a hint about why it's failing.
 
 In order to save your work, you will need to _commit and push_ your code.
 
-> [!DANGER]
+> [!CAUTION]
 >
-> If you close the browser without commiting and pushing, you will lose your
+> If you close the browser without committing and pushing, you will lose your
 > work.
 
 See the walkthrough below to see how to commit and push your code.
