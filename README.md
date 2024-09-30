@@ -43,7 +43,70 @@ See the walkthrough below to see how to commit and push your code.
 Let's walk through the steps to solving, testing, committing and pushing the
 first problem.
 
-### Step 1: Codespaces
+### Step 0: Open the assignment
 
-The easiest way to work on the code is using Codespaces right here in the
-browser.
+When you follow the assignment URL you will see a screen like this:
+
+![accepting the assignment](img/image.png)
+
+You open the repo by visiting the link shown in blue:
+
+![opening the repo](img/image-1.png)
+
+Then, you should be looking at the project's README (this file)!
+
+### Step 1: Open a codespace
+
+Just above this README, on the right, you will see a green button that says
+`<> Code`. Click it, switch to the Codespaces tab and click "Create codespace on
+main".
+
+![opening a codespace](img/image-2.png)
+
+### Step 2: Edit some code
+
+Opening the `problems/001.js` file, you will see some information to explain
+what you need to do.
+
+![solving a problem](img/image-3.png)
+
+At the top of the file, you will see a link to a video which explains a bit
+about the concepts you'll need in order to solve the problem.
+
+### Step 3: Testing a problem
+
+At the bottom of the editor, you will see a terminal window. Click in the
+terminal, type `npm run test:001` and hit enter.
+
+![testing the problem](img/image-4.png)
+
+If all goes well, you will see lots of green. If something still isn't passing,
+there will be some hints as to what is going wrong.
+
+### Step 4: Staging changes
+
+Click on the "Github" tab on the left. It looks like three dots connected by
+railway tracks.
+
+![staging the changes](img/image-5.png)
+
+Click the little `+` symbol to stage all changes.
+
+### Step 5: Committing the changes
+
+After staging the changes, you should see that a green button invites you to
+commit.
+
+![committing the changes](img/image-6.png)
+
+Type a short message explaining what changes you have made to the repository,
+then click the commit button.
+
+### Step 6: Push changes
+
+After committing, the button should change to say "sync changes".
+
+![pushing the changes](img/image-7.png)
+
+Click this button to save changes from Codespace back to the repository on
+Github.
