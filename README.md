@@ -33,7 +33,7 @@ In order to save your work, you will need to _commit and push_ your code.
 
 > [!CAUTION]
 >
-> If you close the browser without committing and pushing, you will lose your
+> If you close the browser without committing and pushing, you might lose your
 > work.
 
 See the walkthrough below to see how to commit and push your code.
