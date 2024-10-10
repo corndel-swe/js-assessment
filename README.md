@@ -110,3 +110,26 @@ After committing, the button should change to say "sync changes".
 
 Click this button to save changes from Codespace back to the repository on
 Github.
+
+## FAQ
+
+### Can I look at the test folder?
+
+Yes! It's totally fine. But **don't change anything in the test folder**, treat
+it as read only.
+
+### Oh no I changed the test folder...
+
+It's ok! Just hit `Ctrl + Z` a bunch of times to undo all your changes.
+
+### I chagned the test folder and `Ctrl + Z` isn't helping...
+
+Don't worry! Remember the "Github" tab from Step 4? Open it up and you'll see a
+list of all files that have been changed. Look for the "revert" button (it looks
+like an "undo" symbol). It should restore the file to its original state.
+
+### Nothing is working! I need help!
+
+Send an email to your contact at Corndel - we're here to help. We can't give you
+the answers but if something doesn't seem to be working as intended we'll sort
+it out.
