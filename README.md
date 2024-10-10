@@ -127,9 +127,3 @@ It's ok! Just hit `Ctrl + Z` a bunch of times to undo all your changes.
 Don't worry! Remember the "Github" tab from Step 4? Open it up and you'll see a
 list of all files that have been changed. Look for the "revert" button (it looks
 like an "undo" symbol). It should restore the file to its original state.
-
-### Nothing is working! I need help!
-
-Send an email to your contact at Corndel - we're here to help. We can't give you
-the answers but if something doesn't seem to be working as intended we'll sort
-it out.
